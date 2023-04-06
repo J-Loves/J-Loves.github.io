@@ -6,20 +6,5 @@
 	<h1>Aminadab Aregay</h1>
 	<p>Welcome to my website!</p>
 	<img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-	<h4>Do you want to party?</h4>
-	<button onclick="test();">Random Color</button>
-	<script>
-		function test()
-		{
-		var red = parseInt(Math.random() * 256).toString(16);
-		var green = parseInt(Math.random() * 256).toString(16);
-		var blue = parseInt(Math.random() * 256).toString(16);
-
-		if(red.length < 2) red="0" + red;
-		if(green.length < 2) green="0" + green;
-		if(blue.length < 2) blue="0" + blue;
-		document.body.style.backgroundColor = "#" + red + green + blue;
-		}
-	</script>
 </body>
 </html>
