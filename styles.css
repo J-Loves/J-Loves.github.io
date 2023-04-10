@@ -1,0 +1,40 @@
+body {
+    background-color:darkslategray;
+}
+
+h1 {
+    background-color: blanchedalmond;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+
+#html {
+    background-color: rgb(19, 77, 19);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+#css {
+    background-color: rgb(31, 31, 95);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.subTitle {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.structureEx {
+    color: rgb(145, 109, 109);
+}
