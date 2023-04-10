@@ -1,0 +1,54 @@
+body {
+    background-color: grey;
+    font-family: 'Sedgwick Ave Display', 'Courier New', serif;
+}
+
+
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    padding: 50px;
+    font-size: 50px;
+    color: orangered;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2 u {
+    color: orangered;
+    font-size: 50px;
+    position: relative;
+    top: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    padding: 20px 40px 20px 40px;
+    background-color: white;
+    color: orangered;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.link:hover {
+    background-color: orangered;
+    color: white;
+}
+
+#html .link {
+    position: relative;
+    left: 100px;
+    top: 120px;
+}
+
+#css .link {
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
