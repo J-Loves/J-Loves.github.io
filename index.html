@@ -10,13 +10,16 @@
 </head>
 
 <body>
-    <div class="title">
-        <h1>Cheatsheet for <div class="coding">&lt;Full-stack&gt;</div>
-        </h1>
+        <div class="header">
+        <h1>Cheatsheet for <div class="highlight">&lt;Full-stack&gt;</div></h1>
     </div>
-    <div class="classHtml">
+    <div class="buttons">
+        <a href="#classHtml">Html</a>
+        <a href="#classCss">Css</a>
+    </div>
+    <div id="classHtml">
         <h2 class="htmlTopic">
-            <div class="coding">Html</div> Cheatsheet
+            <div class="highlight">Html</div> Cheatsheet
         </h2>
         <fieldset class="htmlFieldset">
             <legend class="legend">Table Structure</legend>
@@ -94,12 +97,42 @@
                 </pre>
         </fieldset>
     </div>
-    <div class="classCss">
+    <div id="classCss">
         <h1 class="cssTopic">
-            <div class="coding">Css</div> Cheatsheet
+            <div class="highlight">Css</div> Cheatsheet
         </h1>
-        <fieldset>
-            <legend>Co</legend>
+        <fieldset class="cssFieldset">
+            <legend class="legend">
+                Selectors and declarations.
+            </legend>
+            <h4>
+                <u>Selectors</u>
+            </h4>
+            <p>
+                The selectors are the code that you want to style.
+                Here is an example:
+            </p>
+<pre class="fieldset">
+<div class="highlight">h1</div> {
+    color: red;
+}
+</pre>
+            <br>
+            <h4>
+                <u>Declaration</u>
+            </h4>
+            <p>
+                The declaration is what style is being applied to the selected element.
+                Here is an example:
+            </p>
+<pre class="fieldset">
+h1 {
+    <div class="highlight">color: red;</div>
+}
+</pre>
+        </fieldset>
+        <fieldset class="cssFieldset">
+            <legend></legend>
         </fieldset>
     </div>
 </body>
