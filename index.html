@@ -10,18 +10,40 @@
 </head>
 
 <body>
-        <div class="header">
-        <h1>Cheatsheet for <div class="highlight">&lt;Full-stack&gt;</div></h1>
+    <div class="header">
+        <h1>Cheatsheet for <div id="highlight">&lt;Full-stack&gt;</div>
+        </h1>
     </div>
     <div class="buttons">
         <a href="#classHtml">Html</a>
         <a href="#classCss">Css</a>
-        <a href="contact.html">Contact</a>
+        <a href="#classContact">Contact</a>
     </div>
     <div id="classHtml">
         <h2 class="htmlTopic">
-            <div class="highlight">Html</div> Cheatsheet
+            <div id="highlight">Html</div> Cheatsheet
         </h2>
+        <fieldset class="htmlFieldset">
+            <legend class="legend">Semantic Structure</legend>
+            <pre class="fieldset">
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Cheatsheet&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;How to cheat using a sheat 101!&lt;/h1&gt;
+    
+    &lt;div class="nav"&gt;&lt;/div&gt;
+    
+    &lt;p&gt;Kid gets caught with cheatsheet!&lt;/p&gt;
+    
+    &lt;fieldset&gt;
+        &lt;legend&gt;&lt;/legend&gt;
+    &lt;fieldset&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </pre>
+        </fieldset>
         <fieldset class="htmlFieldset">
             <legend class="legend">Table Structure</legend>
             <pre class="fieldset">
@@ -63,27 +85,7 @@
                 </tr>
             </table>
         </fieldset>
-        <fieldset class="htmlFieldset">
-            <legend class="legend">Semantic Structure</legend>
-            <pre class="fieldset">
-&lt;html&gt;
-&lt;head&gt;
-    &lt;title&gt;Cheatsheet&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;h1&gt;How to cheat using a sheat 101!&lt;/h1&gt;
-    
-    &lt;div class="nav"&gt;&lt;/div&gt;
-    
-    &lt;article&gt;Kid gets caught with cheatsheet!&lt;/article&gt;
-    
-    &lt;fieldset&gt;
-        &lt;legend&gt;&lt;/legend&gt;
-    &lt;fieldset&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-                </pre>
-        </fieldset>
+
         <fieldset class="htmlFieldset">
             <legend class="legend">Extra Tags</legend>
             <pre class="fieldset">
@@ -100,7 +102,7 @@
     </div>
     <div id="classCss">
         <h1 class="cssTopic">
-            <div class="highlight">Css</div> Cheatsheet
+            <div id="highlight">Css</div> Cheatsheet
         </h1>
         <fieldset class="cssFieldset">
             <legend class="legend">
@@ -113,8 +115,8 @@
                 The selectors are the code that you want to style.
                 Here is an example:
             </p>
-<pre class="fieldset">
-<div class="highlight">h1</div> {
+            <pre class="fieldset">
+<div id="highlight">h1</div> {
     color: red;
 }
 </pre>
@@ -126,16 +128,51 @@
                 The declaration is what style is being applied to the selected element.
                 Here is an example:
             </p>
-<pre class="fieldset">
+            <pre class="fieldset">
 h1 {
-    <div class="highlight">color: red;</div>
+    <div id="highlight">color: red;</div>
 }
 </pre>
         </fieldset>
-        <fieldset class="cssFieldset">
-            <legend></legend>
+        <fieldset class="fieldset">
+            <legend class="legend">Declarations</legend>
+            <div class="extraTags">
+                <div>Border</div> creates a border round the element. <br> 
+                Ex: <div id="highlight">border: 2px solid black;</div> 
+                <br>
+                <div>Border-radius</div> Makes the border into more of a circular shape <br>
+                Ex: <div id="highlight">border-radius: 5px;</div>
+                <br>
+                <div>transition</div> this is used when an effect (like hover) is used, the
+                element will transition into the desired effect of the coder. <br>
+                Ex: <div id="highlight">transition: 2s;</div>
+                <br>
+                <div>Background color</div> sets the background color of the element <br>
+                Ex: <div id="highlight">background-color: bisque;</div>
+
+            </div>
         </fieldset>
     </div>
+    <div id="classContact">
+        <h1 class="contactTitle">
+            Contact Me!
+        </h1>
+        <fieldset>
+            <legend class="legend">Contact</legend>
+            <ul class="contact">
+                <li><strong>Gmail:</strong> Aminadabzubie@gmail.com</li>
+                <li><strong>Number:</strong> 911</li>
+            </ul>
+            <h2 class="aboutTitle">
+                <u>About me!</u>
+            </h2>
+            <h3 class="about">
+                Hello, first of all thank you for taking your time to visiting this website!
+                My name is Aminadab Aregay and I am a web developer in highschool! Feel free to
+                contact me for any questions, or if you need a website!
+            </h3>
+    </div>
+    </fieldset>
 </body>
 
 </html>
