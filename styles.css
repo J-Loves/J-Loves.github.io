@@ -10,11 +10,12 @@ body {
 }
 
 
-.highlight
+#highlight
  {
     background-color: goldenrod;
     display: inline-block;
-    border-radius: 5px;;
+    border-radius: 5px;
+    padding: 1px;
 }
 
 #classHtml .htmlTopic {
@@ -37,10 +38,11 @@ body {
     font-size: large;
 }
 
-.fieldset {
+fieldset {
     color: rgb(63, 6, 6);
     font-weight: bold;
     font-size: large;
+    border-radius: 50px;
 }
 
 .table, td, th{
@@ -89,4 +91,22 @@ a:hover {
     color: rgb(79, 68, 47);
     background-color: goldenrod;
     font-size:30px;
+}
+
+
+.contactTitle {
+
+    position: relative;
+    border: 2px solid black;
+    background-color: rgb(79, 68, 47);
+    text-align: center;
+}
+
+.about {
+    color: rgb(78, 6, 21);
+}
+
+.contact {
+    font-size: larger;
+    color: rgb(78, 6, 21);
 }
