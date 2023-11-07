@@ -1,112 +1,112 @@
 body {
-    background-color: rgb(72, 95, 129);
-    font-family: kanit, 'Courier New', serif;
+  background-color: rgb(72, 95, 129);
+  font-family: kanit, 'Courier New', serif;
 }
 
 .header {
-    text-align: center;
-    border: 2px solid black;
-    background-color: rgb(79, 68, 47);
+  text-align: center;
+  border: 2px solid black;
+  background-color: rgb(79, 68, 47);
+  top: 1px;
+  position: sticky;
 }
 
 
 #highlight
- {
-    background-color: goldenrod;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 1px;
+{
+  background-color: goldenrod;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 1px;
 }
 
 #classHtml .htmlTopic {
-    text-align: center;
-    border: 1px solid black;
-    margin-top: 80px;
-    background-color: rgb(79, 68, 47);
-    padding: 10px;
-    font-size: xx-large;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 80px;
+  background-color: rgb(79, 68, 47);
+  padding: 10px;
+  font-size: xx-large;
 }
 
 .htmlFieldset, .cssFieldset {
-    margin: 20px;
+  margin: 20px;
 }
 
 .legend {
-    text-align: center;
-    border: 1px solid black;
-    background-color: rgb(79, 68, 47);
-    font-size: large;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(79, 68, 47);
+  font-size: large;
 }
 
 fieldset {
-    color: rgb(63, 6, 6);
-    font-weight: bold;
-    font-size: large;
-    border-radius: 50px;
+  color: rgb(63, 6, 6);
+  font-weight: bold;
+  font-size: large;
+  border-radius: 50px;
 }
 
 .table, td, th{
-    border: 2px solid black;
-    background-color: rgb(79, 68, 47);
-    text-align: center;
+  border: 2px solid black;
+  background-color: rgb(79, 68, 47);
+  text-align: center;
 }
 
 #classHtml p {
-    font-size: large;
-    color: rgb(54, 15, 8);
-    font-weight: bold;
+  font-size: large;
+  color: rgb(54, 15, 8);
+  font-weight: bold;
 }
 
 .extraTags div {
-    background-color: rgb(79, 68, 47);
-    display: inline-block;
-    line-height: 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+  background-color: rgb(79, 68, 47);
+  display: inline-block;
+  line-height: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .cssTopic{
-    text-align: center;
-    border: 1px solid black;
-    background-color: rgb(79, 68, 47);
-    padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(79, 68, 47);
+  padding: 10px;
 }
 
 .buttons a {
-    position: relative;
-    text-align: center;
-    top: 40px;
-    font-size: 20px;
-    padding: 10px 30px;
-    border: 1px solid black;
-    text-decoration: none;
-    color: black;
-    background-color: rgb(79, 68, 47);
-    border-radius: 5px;
-    transition: font-size 0.5s;
-    
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  transition: 0.5s;
+  
 }
 
 a:hover {
-    color: rgb(79, 68, 47);
-    background-color: goldenrod;
-    font-size:30px;
+  color: rgb(79, 68, 47);
+  background-color: goldenrod;
+  font-size:30px;
 }
 
 
 .contactTitle {
 
-    position: relative;
-    border: 2px solid black;
-    background-color: rgb(79, 68, 47);
-    text-align: center;
+  position: relative;
+  border: 2px solid black;
+  background-color: rgb(79, 68, 47);
+  text-align: center;
 }
 
 .about {
-    color: rgb(78, 6, 21);
+  color: rgb(78, 6, 21);
 }
 
 .contact {
-    font-size: larger;
-    color: rgb(78, 6, 21);
+  font-size: larger;
+  color: rgb(78, 6, 21);
 }
